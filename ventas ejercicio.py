@@ -1,4 +1,4 @@
-# 1. lista de diccionarios con ventas
+# 1. Diccionarios con ventas
 ventas = [
     {"fecha": "2024-01-01", "producto": "Manzana", "cantidad": 10, "precio": 0.5},
     {"fecha": "2024-01-01", "producto": "Banana", "cantidad": 5, "precio": 0.3},
@@ -46,7 +46,7 @@ for venta in ventas:
     cant_total += cantidad
     precios_por_producto[producto] = (suma_precios, cant_total)
 
-# Calcular precio promedio por producto
+#  precio promedio por producto
 precio_promedio_por_producto = {}
 for producto, (suma_precios, cant_total) in precios_por_producto.items():
     precio_promedio_por_producto[producto] = suma_precios / cant_total
